@@ -1,3 +1,9 @@
+body {
+  margin:0px;
+}
+
+
+
 .jumbotron {
   background-image:url("the-flatiron-building.png");
   color:white;
@@ -15,14 +21,25 @@
  display:flex;
  background-color: 	#F5F5F5;
  font-family: Helvetica;
+ padding:10px;
 }
 
-.navsub {
+
+.navsub.a{
+  width:50%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navsub.b{
   width:50%;
   display:flex;
   justify-content: flex-end;
-
+  align-items: center;
 }
+
+
 
 .navsub ul{
   margin-right: 20px;
@@ -32,9 +49,7 @@
   margin-right:10px;
 }
 
-div {
-  border:1px solid black;
-}
+
 
 .nav a {
   text-decoration: none;
