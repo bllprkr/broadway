@@ -64,3 +64,28 @@ body {
 .main {
   text-align: center;
 }
+
+.banner {
+  font-family: Helvetica;
+  font-size:23px;
+  font-weight: bold;
+  color:white;
+  background-image:url("the-flatiron-building.png");
+  text-align: center;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.footer{
+  color:white;
+  background-color:dimgray;
+  font-size:11px;
+  font-family: Helvetica;
+
+}
+
+.footer ul li {
+  display: inline;
+}
